@@ -4,8 +4,6 @@ A custom Lovelace card for [Home Assistant](https://www.home-assistant.io/) that
 
 The card does **not** talk to the device itself. It only maps entities provided by another integration (for example the Bluetti2MQTT add-on) and displays and controls them.
 
-![Screenshot](docs/screenshot.png)
-
 ## Features
 
 - Power flow view with four nodes: **DC charging** (PV), **AC charging** (grid), **DC discharging** and **AC discharging**. Connection lines animate while power flows.
@@ -19,6 +17,9 @@ The card does **not** talk to the device itself. It only maps entities provided 
 
 ### HACS (custom repository)
 
+[![Add to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=viiper94&repository=bluetti_power_card&category=plugin)
+
+Or add it manually: 
 1. In HACS, open the menu, choose **Custom repositories** and add this repository as type **Dashboard**.
 2. Install **Bluetti Power Card** and reload the browser.
 
